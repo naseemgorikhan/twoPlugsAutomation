@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="twoplugs auotomaton">
+
+	<listeners>
+			<listener class-name="com.TwoPlugs.Utilities.Reporting"/>  
+	
+	</listeners>
+
+<test name="twoplugs">
+<parameter name="browser" value="chrome"/>
+
+
+
+
+		<classes>
+		
+		
+				   <class name="com.TwoPlugs.TestCases.LoginTest"/>   
+		           <!--   <class name="com.TwoPlugs.TestCases.Login_Valid_TDD"/> -->
+		            <!--   <class name="com.TwoPlugs.TestCases.Follow_Unfollow"/>  -->
+		              
+		           <!--     <class name="com.TwoPlugs.TestCases.TransferEedsPosi"/>  -->
+		            <!--    <class name="com.TwoPlugs.TestCases.TransferEedsNeg"/> --> 
+		
+		<!--  <class name="com.TwoPlugs.TestCases.MsgCountPagination"/>  -->
+		
+		  <class name="com.TwoPlugs.TestCases.sortingMessage"/> 
+		 
+		 
+	  	<!--   <class name="com.TwoPlugs.TestCases.sortingMessage"/>  --> 
+		 
+	   	<class name="com.TwoPlugs.TestCases.DisplayTime"/>
+	 	
+	  	<class name="com.TwoPlugs.TestCases.userLinks"/> 
+	 	
+	 	<class name="com.TwoPlugs.TestCases.FollowUnFollow1"/> 
+	
+		</classes>
+
+
+</test>
+
+</suite>
