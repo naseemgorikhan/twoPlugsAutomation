@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>twoplugs</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 09 19:08:11 GMT-05:00 2019</td>
+<td>Started on:</td><td>Thu Mar 14 20:39:35 GMT-05:00 2019</td>
 </tr>
-<tr><td>Total time:</td><td>180 seconds (180771 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38061 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.TwoPlugs.TestCases.sortingMessage.sortMessages()'><b>sortMessages</b><br>Test class: com.TwoPlugs.TestCases.sortingMessage</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [true] but found [false]
-	at com.TwoPlugs.TestCases.sortingMessage.sortMessages(sortingMessage.java:83)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1792473683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1792473683'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.TwoPlugs.TestCases.sortingMessage.sortMessages(sortingMessage.java:83)
+<td title='com.TwoPlugs.TestCases.profile.profileimageupload()'><b>profileimageupload</b><br>Test class: com.TwoPlugs.TestCases.profile</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at org.sikuli.basics.Debug.log(Debug.java:697)
+	at org.sikuli.basics.Debug.logx(Debug.java:675)
+	at org.sikuli.script.RunTime.log(RunTime.java:99)
+	at org.sikuli.script.RunTime.get(RunTime.java:184)
+	at org.sikuli.script.RunTime.get(RunTime.java:126)
+	at org.sikuli.script.RunTime.get(RunTime.java:316)
+	at org.sikuli.script.Region.&lt;clinit&gt;(Region.java:31)
+	at com.TwoPlugs.PageObjects.profilePage.profileLinkCick(profilePage.java:94)
+	at com.TwoPlugs.TestCases.profile.profileimageupload(profile.java:48)
+Caused by: java.lang.NumberFormatException: For input string: &quot;.&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:638)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at org.sikuli.basics.Settings.&lt;clinit&gt;(Settings.java:123)
+	... 34 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace160945458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace160945458'><pre>java.lang.ExceptionInInitializerError
+	at org.sikuli.basics.Debug.log(Debug.java:697)
+	at org.sikuli.basics.Debug.logx(Debug.java:675)
+	at org.sikuli.script.RunTime.log(RunTime.java:99)
+	at org.sikuli.script.RunTime.get(RunTime.java:184)
+	at org.sikuli.script.RunTime.get(RunTime.java:126)
+	at org.sikuli.script.RunTime.get(RunTime.java:316)
+	at org.sikuli.script.Region.&lt;clinit&gt;(Region.java:31)
+	at com.TwoPlugs.PageObjects.profilePage.profileLinkCick(profilePage.java:94)
+	at com.TwoPlugs.TestCases.profile.profileimageupload(profile.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,9 +128,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NumberFormatException: For input string: &quot;.&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:638)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at org.sikuli.basics.Settings.&lt;clinit&gt;(Settings.java:123)
+	... 34 more
 </pre></div></td>
-<td>21</td>
-<td>com.TwoPlugs.TestCases.sortingMessage@4470f8a6</td></tr>
+<td>8</td>
+<td>com.TwoPlugs.TestCases.profile@2a266d09</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -121,25 +146,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.TwoPlugs.TestCases.DisplayTime.checkTime()'><b>checkTime</b><br>Test class: com.TwoPlugs.TestCases.DisplayTime</td>
-<td></td>
-<td>17</td>
-<td>com.TwoPlugs.TestCases.DisplayTime@7c83dc97</td></tr>
-<tr>
-<td title='com.TwoPlugs.TestCases.FollowUnFollow1.followingPageLinks()'><b>followingPageLinks</b><br>Test class: com.TwoPlugs.TestCases.FollowUnFollow1</td>
-<td></td>
-<td>45</td>
-<td>com.TwoPlugs.TestCases.FollowUnFollow1@740773a3</td></tr>
-<tr>
 <td title='com.TwoPlugs.TestCases.userLinks.getUserLinks()'><b>getUserLinks</b><br>Test class: com.TwoPlugs.TestCases.userLinks</td>
 <td></td>
-<td>23</td>
-<td>com.TwoPlugs.TestCases.userLinks@7748410a</td></tr>
-<tr>
-<td title='com.TwoPlugs.TestCases.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.TwoPlugs.TestCases.LoginTest</td>
-<td></td>
-<td>26</td>
-<td>com.TwoPlugs.TestCases.LoginTest@484970b0</td></tr>
+<td>6</td>
+<td>com.TwoPlugs.TestCases.userLinks@50caa560</td></tr>
 </table><p>
 </body>
 </html>

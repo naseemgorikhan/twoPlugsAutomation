@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TwoPlugs.TestCases.FollowUnFollow1">
+      <class name="com.TwoPlugs.TestCases.profile">
         <methods>
-          <include name="followingPageLinks"/>
           <include name="setup"/>
+          <include name="profileimageupload"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.TwoPlugs.TestCases.FollowUnFollow1 -->
+      </class> <!-- com.TwoPlugs.TestCases.profile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

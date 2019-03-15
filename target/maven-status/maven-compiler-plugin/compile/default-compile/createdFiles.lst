@@ -1,6 +1,7 @@
 com\TwoPlugs\PageObjects\LoginPage.class
 com\TwoPlugs\Utilities\ReadConfig.class
 com\TwoPlugs\PageObjects\FollowUnFollowPage.class
+com\TwoPlugs\PageObjects\profilePage.class
 com\TwoPlugs\PageObjects\TransferEeedsPage.class
 com\TwoPlugs\Utilities\Reporting.class
 com\TwoPlugs\PageObjects\MessagePage.class

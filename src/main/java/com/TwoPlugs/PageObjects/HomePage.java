@@ -50,10 +50,20 @@ public class HomePage {
 	@FindBy(xpath="/html/body/div[7]/nav/div/div[2]/ul/li[4]/ul/li[4]/a/span[2]")
 	WebElement userHelpLink;
 	
-	
+	@FindBy(xpath="/html/body/div[7]/nav/div/div[2]/ul/li[4]/a/span[2]")
+	WebElement hiuserLink;
 	 
 	 @FindBy(xpath="//*[@id='followingsNumber']")
 	 WebElement followingLink;
+	 
+	 public void clickProfile()
+	 {
+		Actions act= new Actions(ldriver);
+		act.moveToElement(hiuserLink).click().build().perform();
+		Actions act1= new Actions(ldriver);
+		act.moveToElement(userProfileLink).click().build().perform();
+		
+	 }
 	 
 	 public void clickOnFollowingLink()
 	 {

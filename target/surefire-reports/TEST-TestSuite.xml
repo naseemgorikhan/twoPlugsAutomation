@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="123.637" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.167" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.1+13-LTS"/>
@@ -64,8 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.TwoPlugs.TestCases.LoginTest" time="22.036"/>
-  <testcase name="checkTime" classname="com.TwoPlugs.TestCases.DisplayTime" time="17.142"/>
-  <testcase name="getUserLinks" classname="com.TwoPlugs.TestCases.userLinks" time="21.238"/>
-  <testcase name="followingPageLinks" classname="com.TwoPlugs.TestCases.FollowUnFollow1" time="43.597"/>
+  <testcase name="getUserLinks" classname="com.TwoPlugs.TestCases.userLinks" time="5.739"/>
 </testsuite>

@@ -1,6 +1,7 @@
 com\TwoPlugs\TestCases\BaseClass.class
 com\TwoPlugs\TestCases\userLinks.class
 com\TwoPlugs\TestCases\LoginTest.class
+com\TwoPlugs\TestCases\profile.class
 com\TwoPlugs\TestCases\DisplayTime.class
 com\TwoPlugs\TestCases\Follow_Unfollow.class
 com\TwoPlugs\TestCases\FollowUnFollow1.class
