@@ -3,6 +3,9 @@
  */
 package com.TwoPlugs.TestCases;
 
+import java.awt.AWTException;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.sikuli.script.FindFailed;
 import org.testng.annotations.Test;
@@ -20,7 +23,7 @@ import com.TwoPlugs.PageObjects.profilePage;
 public class profile extends BaseClass {
 	
 	@Test
-	public void profileimageupload() throws InterruptedException, FindFailed
+	public void profileimageupload() throws InterruptedException, FindFailed, AWTException
 	
 	{
 		  SoftAssert softassert= new SoftAssert();
@@ -43,11 +46,15 @@ public class profile extends BaseClass {
 			
 		//	pf.clickPageLink();
 			pf.clickEditLink();
+			Thread.sleep(3000);
 			pf.clickPageLink();
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			pf.clickchangeuploadpic();
-	     	pf.profileLinkCick();
-			
-			//driver.findElement(By.xpath("/html/body/div[7]/nav/div/div[2]/ul/li[4]/ul/li[1]/a/span[2]")).click();
+			Thread.sleep(3000);
+	   
+	     	pf.clickonDropFile();
+	      	pf.profileLinkCick();
+		
 			
 			
 	}

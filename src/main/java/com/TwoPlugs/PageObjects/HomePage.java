@@ -21,7 +21,7 @@ public class HomePage {
 		PageFactory.initElements(rdriver, this);
 		
 	}
-	
+	// Git comment
 	@FindBy(xpath="//div[@class='name']")
 	WebElement uname;
 	
@@ -61,7 +61,7 @@ public class HomePage {
 		Actions act= new Actions(ldriver);
 		act.moveToElement(hiuserLink).click().build().perform();
 		Actions act1= new Actions(ldriver);
-		act.moveToElement(userProfileLink).click().build().perform();
+		act1.moveToElement(userProfileLink).click().build().perform();
 		
 	 }
 	 
